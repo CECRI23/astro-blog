@@ -18,7 +18,7 @@ import remarkCodeTitles from 'remark-code-titles'
 // https://astro.build/config
 export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
   output: 'server',
-  site: 'https://astro-ink.vercel.app',
+  site: 'https://cecri-blog.vercel.app',
   markdown: {
     syntaxHighlight: 'shiki',
     shikiConfig: {
@@ -51,10 +51,10 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
   },
   adapter: vercel({
     webAnalytics: {
-      enabled: true,
+      enabled: true
     },
     speedInsights: {
-      enabled: true,
+      enabled: true
     }
   })
 });
