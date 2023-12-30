@@ -5,3 +5,6 @@
 [submodule "public/documents"]
 	path = public/documents
 	url = https://github.com/CECRI23/blog-cms
+[submodule "src/content/blog/cms"]
+	path = src/content/blog/cms
+	url = https://github.com/CECRI23/blog-cms
