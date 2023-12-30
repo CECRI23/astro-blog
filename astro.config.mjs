@@ -50,10 +50,10 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
     }
   },
   adapter: vercel({
-    webAnalytics: {
+    speedInsights: {
       enabled: true
     },
-    speedInsights: {
+    webAnalytics: {
       enabled: true
     }
   })
