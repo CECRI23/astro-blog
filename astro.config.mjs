@@ -55,6 +55,6 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
     },
     speedInsights: {
       enabled: true,
-    },
+    }
   })
 });
