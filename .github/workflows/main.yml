@@ -25,7 +25,7 @@ jobs:
           run: |
             git config --global user.name "GitHub Actions"
             git config --global user.email "github@actions.com"
-            git submodule add --force https://github.com/CECRI23/blog-cms src/content/blog/cms
+            git submodule add --force https://github.com/CECRI23/blog-cms src/content/blog
             git submodule add --force https://github.com/CECRI23/blog-cms public/documents
             git submodule sync
             git submodule update --recursive --remote
