@@ -49,12 +49,5 @@ export default defineConfig( /** @type {import('astro').AstroUserConfig} */{
       allowNodeBuiltins: true
     }
   },
-  adapter: vercel({
-    speedInsights: {
-      enabled: true
-    },
-    webAnalytics: {
-      enabled: true
-    }
-  })
+  adapter: vercel()
 });
